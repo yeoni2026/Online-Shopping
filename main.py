@@ -15,8 +15,6 @@ while True:
             id = input("Enter prodcut id : ")
             if remove_product(id):
                 print("Product removed successfully!")
-            else :
-                print("Product ID does not exist.")
                 
         case 3:
             print("Exiting the program.")
