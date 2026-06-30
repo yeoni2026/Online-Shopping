@@ -15,8 +15,7 @@ while True:
             id = input("Enter prodcut id : ")
             if remove_product(id):
                 print("Product removed successfully!")
-                
-        case 3:
+        case 4:
             print("Exiting the program.")
             break
         case _:
