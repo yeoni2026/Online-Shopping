@@ -1,6 +1,6 @@
 class Product:
 
-    def init(self, product_id, name, price):
+    def __init__(self, product_id, name, price):
         self.product_id = product_id
         self.name = name
         self.price = price
@@ -24,7 +24,7 @@ class Product:
 
 class ProductManager:
 
-    def init(self):
+    def __init__(self):
         self.products = {}
 
     def add_product(self, product):
